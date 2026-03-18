@@ -2,9 +2,8 @@ const http = require("http");
 const fs = require("fs");
 const path = require("path");
 
-const rootDir = __dirname;
-const publicDir = path.join(rootDir, "public");
-const allowedRoots = [publicDir, path.join(rootDir, "assets"), path.join(rootDir, "data")];
+const publicDir = path.join(__dirname, "public");
+const allowedRoots = [publicDir];
 
 const mimeTypes = {
   ".css": "text/css; charset=utf-8",
@@ -21,10 +20,6 @@ function resolvePath(urlPath) {
   const safePath = decodeURIComponent(urlPath.split("?")[0]);
   if (safePath === "/") {
     return path.join(publicDir, "index.html");
-  }
-
-  if (safePath.startsWith("/assets/") || safePath.startsWith("/data/")) {
-    return path.normalize(path.join(rootDir, safePath.replace(/^\/+/, "")));
   }
 
   return path.normalize(path.join(publicDir, safePath.replace(/^\/+/, "")));
