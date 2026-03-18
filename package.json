@@ -1,0 +1,10 @@
+{
+  "name": "site-clinicaintegratte",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page para clínica de medicina integrativa servida com Node.js puro.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

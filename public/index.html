@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clínica Integratte | Medicina Integrativa com foco na causa</title>
+    <meta
+      name="description"
+      content="Descubra a causa da sua ansiedade, cansaço e desequilíbrio hormonal com uma abordagem integrativa, personalizada e humanizada. Agende sua consulta pelo WhatsApp."
+    />
+    <meta name="theme-color" content="#0f7a7c" />
+    <script>
+      document.documentElement.classList.add("js-motion");
+    </script>
+    <link rel="icon" href="/assets/images/clinic-logo.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <a
+      class="floating-whatsapp js-whatsapp"
+      href="https://wa.me/5534996785700?text=Ol%C3%A1,%20quero%20agendar%20uma%20consulta"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Agendar consulta pelo WhatsApp"
+    >
+      <span class="floating-whatsapp__icon" aria-hidden="true">✆</span>
+      <span>Agendar no WhatsApp</span>
+    </a>
+
+    <!-- Cabeçalho fixo com logo, navegação e CTA -->
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="#topo" aria-label="Clínica Integratte">
+          <span class="brand__mark">
+            <img class="brand__logo" src="/assets/images/clinic-logo.svg" alt="Logo da Clínica Integratte" />
+          </span>
+          <span class="brand__copy">
+            <strong id="brandName">Clínica Integratte</strong>
+            <span id="brandTagline">Medicina integrativa no Brasil</span>
+          </span>
+        </a>
+
+        <nav class="site-nav" aria-label="Navegação principal">
+          <a href="#problemas">Problemas</a>
+          <a href="#solucao">Solução</a>
+          <a href="#como-funciona">Como funciona</a>
+          <a href="#depoimentos">Depoimentos</a>
+          <a href="#equipe">Equipe</a>
+          <a href="#localizacao">Localização</a>
+        </nav>
+
+        <a
+          class="button button--primary button--compact js-whatsapp"
+          href="https://wa.me/5534996785700?text=Ol%C3%A1,%20quero%20agendar%20uma%20consulta"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Agendar consulta
+        </a>
+      </div>
+    </header>
+
+    <main id="topo">
+      <!-- Hero Section: dobra principal com promessa central e CTA -->
+      <section class="hero section">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <span class="eyebrow" data-reveal="up" style="--reveal-delay: 80ms;">Tratamento com foco na causa</span>
+            <h1 id="heroHeadline" class="hero__title" data-reveal="up" style="--reveal-delay: 150ms;">Descubra a causa da sua ansiedade, cansaço e desequilíbrio hormonal</h1>
+            <p id="heroSubheadline" class="hero__description" data-reveal="up" style="--reveal-delay: 220ms;">
+              Na Clínica Integratte, cada consulta investiga o que está por trás dos seus sintomas para criar um plano claro, personalizado e realmente possível de seguir.
+            </p>
+
+            <div class="hero__actions" data-reveal="up" style="--reveal-delay: 290ms;">
+              <a
+                class="button button--primary button--large js-whatsapp"
+                href="https://wa.me/5534996785700?text=Ol%C3%A1,%20quero%20agendar%20uma%20consulta"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Agendar consulta pelo WhatsApp
+              </a>
+              <a class="button button--secondary button--large" href="#como-funciona">Ver como funciona</a>
+            </div>
+
+            <div class="hero__benefits">
+              <article class="soft-card" data-reveal="up" style="--reveal-delay: 360ms;">
+                <h2>Escuta ampla</h2>
+                <p>Sua história, rotina e sintomas entram na mesma análise.</p>
+              </article>
+              <article class="soft-card" data-reveal="up" style="--reveal-delay: 430ms;">
+                <h2>Plano sob medida</h2>
+                <p>Sem fórmula pronta: o tratamento é pensado para você.</p>
+              </article>
+              <article class="soft-card" data-reveal="up" style="--reveal-delay: 500ms;">
+                <h2>Acompanhamento humano</h2>
+                <p>Clareza, orientação e próximos passos objetivos.</p>
+              </article>
+            </div>
+
+            <div class="hero__trust" data-reveal="up" style="--reveal-delay: 570ms;">
+              <span>Atendimento humanizado</span>
+              <span>Abordagem clara e acessível</span>
+              <span>Agendamento rápido no WhatsApp</span>
+            </div>
+          </div>
+
+          <div class="hero__visual" data-reveal="right" style="--reveal-delay: 180ms;">
+            <div class="hero-card">
+              <div class="hero-card__media">
+                <div class="hero-card__fallback">
+                  <p>Ambiente acolhedor, análise completa e um plano que considera o seu corpo como um todo.</p>
+                </div>
+                <img
+                  id="heroImage"
+                  src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                  alt=""
+                  decoding="async"
+                />
+              </div>
+
+              <div class="floating-note floating-note--left">
+                <strong>Foco no essencial</strong>
+                <span>Descobrir por que o sintoma aparece e o que precisa ser ajustado.</span>
+              </div>
+
+              <div class="floating-note floating-note--right floating-note--dark">
+                <strong>Consulta integrativa</strong>
+                <span>Mais contexto, menos resposta automática.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção de dores: lista de sintomas frequentes -->
+      <section id="problemas" class="section">
+        <div class="container">
+          <div class="section-heading" data-reveal="up">
+            <span class="eyebrow">Sinais que merecem atenção</span>
+            <h2>Quando o corpo dá sinais todos os dias, tratar só o sintoma não basta</h2>
+            <p>
+              Muitos pacientes chegam depois de meses ou anos tentando lidar sozinhos com sintomas que afetam a rotina, o humor e a qualidade de vida.
+            </p>
+          </div>
+          <div id="problemGrid" class="problem-grid"></div>
+        </div>
+      </section>
+
+      <!-- Seção de solução: explicação acessível da medicina integrativa -->
+      <section id="solucao" class="section section--highlight">
+        <div class="container split-section">
+          <div class="image-panel" data-reveal="left">
+            <div class="image-panel__badge">Cuidado personalizado</div>
+            <div class="image-panel__media">
+              <div class="image-panel__fallback"></div>
+              <img
+                src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=900&q=80"
+                alt="Médica avaliando paciente com atenção em um consultório"
+                loading="lazy"
+                decoding="async"
+                onerror="this.remove()"
+              />
+            </div>
+          </div>
+
+          <div class="split-section__content" data-reveal="right" style="--reveal-delay: 80ms;">
+            <span class="eyebrow">Solução clara e acessível</span>
+            <h2>O que é medicina integrativa na prática?</h2>
+            <p>
+              É uma forma de cuidar da sua saúde olhando o quadro completo. Em vez de tratar cada sintoma isoladamente, avaliamos o que pode estar desequilibrando o seu corpo e a sua rotina.
+            </p>
+            <p>
+              Sono, estresse, alimentação, hormônios, inflamação, hábitos e histórico de saúde entram na mesma conversa para identificar a causa do problema e montar um tratamento individual.
+            </p>
+
+            <div class="feature-grid">
+              <article class="soft-card">
+                <h3>Descobrir a causa</h3>
+                <p>Mais investigação do que tentativa e erro. Mais contexto do que respostas genéricas.</p>
+              </article>
+              <article class="soft-card">
+                <h3>Plano personalizado</h3>
+                <p>Condutas escolhidas conforme sua fase de vida, sintomas, exames e objetivos.</p>
+              </article>
+              <article class="soft-card">
+                <h3>Ajuste contínuo</h3>
+                <p>O plano evolui com você, sem rigidez e com acompanhamento próximo.</p>
+              </article>
+            </div>
+
+            <div class="quote-card">
+              <strong>Sem linguagem complicada</strong>
+              <p>Você entende o que está acontecendo, por que aquilo foi pedido e qual é o próximo passo do tratamento.</p>
+            </div>
+
+            <a
+              class="button button--primary button--large js-whatsapp"
+              href="https://wa.me/5534996785700?text=Ol%C3%A1,%20quero%20agendar%20uma%20consulta"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Quero entender meu caso
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Como funciona: 3 passos objetivos -->
+      <section id="como-funciona" class="section">
+        <div class="container">
+          <div class="section-heading" data-reveal="up">
+            <span class="eyebrow">Como funciona</span>
+            <h2>Um processo simples, claro e feito para gerar direção</h2>
+            <p>A jornada foi pensada para transformar sintomas confusos em um plano objetivo de cuidado.</p>
+          </div>
+
+          <div class="steps-grid">
+            <article class="step-card" data-reveal="up" style="--reveal-delay: 60ms;">
+              <span class="step-card__number">1</span>
+              <h3>Avaliação completa</h3>
+              <p>Entendemos seus sintomas, sua rotina, seu histórico e os fatores que podem estar mantendo o desequilíbrio.</p>
+            </article>
+            <article class="step-card" data-reveal="up" style="--reveal-delay: 140ms;">
+              <span class="step-card__number step-card__number--blue">2</span>
+              <h3>Exames e diagnóstico personalizado</h3>
+              <p>Quando necessário, os exames ajudam a confirmar hipóteses e dar mais precisão ao entendimento do seu quadro.</p>
+            </article>
+            <article class="step-card" data-reveal="up" style="--reveal-delay: 220ms;">
+              <span class="step-card__number step-card__number--green">3</span>
+              <h3>Plano de tratamento individual</h3>
+              <p>Você sai com recomendações práticas, prioridades definidas e acompanhamento para ajustar o que for preciso.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Prova social: depoimentos e avaliações -->
+      <section id="depoimentos" class="section section--dark">
+        <div class="container">
+          <div class="section-heading section-heading--dark section-heading--between" data-reveal="up">
+            <div>
+              <span class="eyebrow eyebrow--dark">Pacientes que voltaram a se sentir no controle</span>
+              <h2>Prova social que transmite segurança antes mesmo do primeiro contato</h2>
+              <p>Os depoimentos abaixo são exemplos de linguagem real de pacientes e podem ser substituídos pelos relatos verdadeiros da clínica.</p>
+            </div>
+            <a
+              class="button button--light button--large js-whatsapp"
+              href="https://wa.me/5534996785700?text=Ol%C3%A1,%20quero%20agendar%20uma%20consulta"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Agendar minha consulta
+            </a>
+          </div>
+
+          <div id="testimonialGrid" class="testimonial-grid"></div>
+        </div>
+      </section>
+
+      <!-- Autoridade: apresentação dos profissionais -->
+      <section id="equipe" class="section">
+        <div class="container">
+          <div class="section-heading" data-reveal="up">
+            <span class="eyebrow">Equipe médica</span>
+            <h2>Profissionais que unem visão clínica, acolhimento e profundidade na investigação</h2>
+            <p>A apresentação abaixo pode ser adaptada para os médicos reais da clínica, mantendo a mesma estrutura de autoridade e confiança.</p>
+          </div>
+
+          <div id="doctorGrid" class="doctor-grid"></div>
+        </div>
+      </section>
+
+      <!-- CTA forte antes de localização -->
+      <section class="section">
+        <div class="container">
+          <div class="cta-banner" data-reveal="scale">
+            <div>
+              <span class="cta-banner__eyebrow">Seu próximo passo pode ser simples</span>
+              <h2>Se o seu corpo vem pedindo ajuda, a consulta é o momento de finalmente organizar o caminho</h2>
+              <p>Clique no botão e fale direto com a clínica para tirar dúvidas e agendar sua avaliação.</p>
+            </div>
+            <div class="cta-banner__actions">
+              <a
+                class="button button--whatsapp button--large js-whatsapp"
+                href="https://wa.me/5534996785700?text=Ol%C3%A1,%20quero%20agendar%20uma%20consulta"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Agendar consulta pelo WhatsApp
+              </a>
+              <span>Resposta rápida para confirmar o atendimento.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Localização e contato -->
+      <section id="localizacao" class="section section--no-top-padding">
+        <div class="container location-grid">
+          <div class="location-card" data-reveal="left">
+            <span class="eyebrow">Localização e contato</span>
+            <h2 id="locationCity">Atendimento em Uberlândia, MG</h2>
+            <p>Estrutura pensada para oferecer uma experiência tranquila, privada e acolhedora desde o primeiro contato.</p>
+
+            <div class="location-list">
+              <div>
+                <strong>Endereço</strong>
+                <p id="locationAddress1">Uberlândia, Minas Gerais, Brasil</p>
+                <p id="locationAddress2">Endereço completo confirmado no momento do agendamento.</p>
+                <div id="locationArrival" class="location-arrival" hidden>
+                  <span class="location-arrival__label">Chegue em</span>
+                  <div id="locationArrivalBadges" class="location-arrival__badges"></div>
+                </div>
+              </div>
+              <div>
+                <strong>Telefone</strong>
+                <a id="locationPhoneLink" href="tel:+553433065700">(34) 3306-5700</a>
+              </div>
+              <div>
+                <strong>Horário de funcionamento</strong>
+                <div class="location-status">
+                  <span id="locationStatusBadge" class="status-pill status-pill--closed">Verificando horário...</span>
+                  <p id="locationStatusText">Carregando o atendimento de hoje.</p>
+                  <p id="locationTimeNow" class="location-time-now"></p>
+                </div>
+                <p id="locationHours">Segunda a sexta, das 8h às 18h, com agendamento prévio.</p>
+                <div id="locationSchedule" class="location-schedule" aria-label="Grade semanal de funcionamento"></div>
+              </div>
+            </div>
+
+            <a
+              class="button button--primary button--large js-whatsapp"
+              href="https://wa.me/5534996785700?text=Ol%C3%A1,%20quero%20agendar%20uma%20consulta"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Falar com a clínica no WhatsApp
+            </a>
+          </div>
+
+          <div class="map-card" data-reveal="right" style="--reveal-delay: 80ms;">
+            <iframe
+              id="mapFrame"
+              title="Mapa da localização da clínica"
+              src="https://www.google.com/maps?q=Uberl%C3%A2ndia%20MG&z=13&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Rodapé institucional -->
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <div class="brand brand--footer">
+          <span class="brand__mark">
+            <img class="brand__logo" src="/assets/images/clinic-logo.svg" alt="Logo da Clínica Integratte" loading="lazy" />
+          </span>
+          <span class="brand__copy">
+            <strong>Clínica Integratte</strong>
+            <span>Medicina integrativa com foco em clareza, confiança e cuidado humano.</span>
+          </span>
+        </div>
+        <div class="site-footer__text">
+          <p>Conteúdo informativo. A avaliação médica é indispensável para definir qualquer conduta individual.</p>
+          <p>&copy; 2025 Clínica Integratte. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const iconMap = {
+        bolt: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z"/></svg>',
+        spark: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v4"/><path d="M18.36 5.64 15.54 8.46"/><path d="M21 12h-4"/><path d="m18.36 18.36-2.82-2.82"/><path d="M12 21v-4"/><path d="m5.64 18.36 2.82-2.82"/><path d="M3 12h4"/><path d="m5.64 5.64 2.82 2.82"/><circle cx="12" cy="12" r="3.5"/></svg>',
+        scale: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h10"/><path d="M9 4v5"/><path d="M15 4v5"/><path d="M5 21h14"/><path d="M7 9h10l1 12H6l1-12Z"/></svg>',
+        battery: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="7" width="14" height="10" rx="2"/><path d="M18 10h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2"/><path d="M7 10.5h6"/></svg>',
+        wave: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3v18"/><path d="M18 3v18"/><path d="M6 8c2 0 2 2 4 2s2-2 4-2 2 2 4 2"/><path d="M6 16c2 0 2-2 4-2s2 2 4 2 2-2 4-2"/></svg>'
+      };
+
+      const weekOrder = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+      const weekdayFormatter = new Intl.DateTimeFormat("en-US", {
+        timeZone: "America/Sao_Paulo",
+        weekday: "long"
+      });
+      const timeFormatter = new Intl.DateTimeFormat("pt-BR", {
+        timeZone: "America/Sao_Paulo",
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: false
+      });
+      const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+      let revealObserver;
+
+      function revealImmediately(scope = document) {
+        scope.querySelectorAll("[data-reveal]").forEach((element) => {
+          element.classList.add("is-visible");
+        });
+      }
+
+      function observeReveals(scope = document) {
+        const revealItems = scope.querySelectorAll("[data-reveal]");
+
+        if (prefersReducedMotion.matches) {
+          revealImmediately(scope);
+          return;
+        }
+
+        if (!revealObserver) {
+          revealObserver = new IntersectionObserver(
+            (entries, observer) => {
+              entries.forEach((entry) => {
+                if (!entry.isIntersecting) {
+                  return;
+                }
+
+                entry.target.classList.add("is-visible");
+                observer.unobserve(entry.target);
+              });
+            },
+            {
+              threshold: 0.16,
+              rootMargin: "0px 0px -12% 0px"
+            }
+          );
+        }
+
+        revealItems.forEach((element) => {
+          if (element.dataset.revealObserved === "true") {
+            return;
+          }
+
+          element.dataset.revealObserved = "true";
+          revealObserver.observe(element);
+        });
+      }
+
+      function toMinutes(timeValue) {
+        if (!timeValue) {
+          return null;
+        }
+
+        const [hours, minutes] = timeValue.split(":").map(Number);
+        return hours * 60 + minutes;
+      }
+
+      function getBrazilNow() {
+        const now = new Date();
+        const weekday = weekdayFormatter.format(now).toLowerCase();
+        const timeText = timeFormatter.format(now);
+        const [hours, minutes] = timeText.split(":").map(Number);
+
+        return {
+          weekday,
+          timeText,
+          minutesNow: hours * 60 + minutes
+        };
+      }
+
+      function getNextOpenText(scheduleMap, currentDayIndex, minutesNow) {
+        for (let offset = 0; offset < weekOrder.length; offset += 1) {
+          const dayIndex = (currentDayIndex + offset) % weekOrder.length;
+          const dayId = weekOrder[dayIndex];
+          const day = scheduleMap.get(dayId);
+
+          if (!day || day.closed) {
+            continue;
+          }
+
+          const openMinutes = toMinutes(day.open);
+
+          if (offset === 0 && minutesNow < openMinutes) {
+            return `Abre hoje às ${day.open}`;
+          }
+
+          if (offset > 0) {
+            return `Abre ${day.label} às ${day.open}`;
+          }
+        }
+
+        return "Consulte a disponibilidade pelo WhatsApp";
+      }
+
+      function renderLocation(location) {
+        document.getElementById("locationCity").textContent = location.city;
+        document.getElementById("locationAddress1").textContent = location.addressLine1;
+        document.getElementById("locationAddress2").textContent = location.addressLine2;
+        document.getElementById("locationHours").textContent = location.hours;
+        document.getElementById("mapFrame").src = `https://www.google.com/maps?q=${encodeURIComponent(location.mapQuery)}&z=15&output=embed`;
+
+        const locationPhoneLink = document.getElementById("locationPhoneLink");
+        locationPhoneLink.textContent = location.phoneLabel;
+        locationPhoneLink.href = location.phoneLink;
+
+        const locationArrival = document.getElementById("locationArrival");
+        const locationArrivalBadges = document.getElementById("locationArrivalBadges");
+        if (Array.isArray(location.arrivalTimes) && location.arrivalTimes.length > 0) {
+          locationArrival.hidden = false;
+          locationArrivalBadges.innerHTML = location.arrivalTimes
+            .map((time) => `<span>${time}</span>`)
+            .join("");
+        } else {
+          locationArrival.hidden = true;
+          locationArrivalBadges.innerHTML = "";
+        }
+
+        const schedule = Array.isArray(location.schedule) ? location.schedule : [];
+        const scheduleMap = new Map(schedule.map((day) => [day.id, day]));
+        const { weekday, timeText, minutesNow } = getBrazilNow();
+        const currentDayIndex = Math.max(weekOrder.indexOf(weekday), 0);
+        const today = scheduleMap.get(weekday);
+
+        let isOpen = false;
+        let statusText = "Consulte a disponibilidade pelo WhatsApp";
+
+        if (today && !today.closed) {
+          const openMinutes = toMinutes(today.open);
+          const closeMinutes = toMinutes(today.close);
+
+          if (minutesNow >= openMinutes && minutesNow < closeMinutes) {
+            isOpen = true;
+            statusText = `Hoje até ${today.close}`;
+          } else if (minutesNow < openMinutes) {
+            statusText = `Abre hoje às ${today.open}`;
+          } else {
+            statusText = getNextOpenText(scheduleMap, currentDayIndex, minutesNow);
+          }
+        } else {
+          statusText = getNextOpenText(scheduleMap, currentDayIndex, minutesNow);
+        }
+
+        const locationStatusBadge = document.getElementById("locationStatusBadge");
+        locationStatusBadge.textContent = isOpen ? "Aberto agora" : "Fechado agora";
+        locationStatusBadge.className = `status-pill ${isOpen ? "status-pill--open" : "status-pill--closed"}`;
+
+        document.getElementById("locationStatusText").textContent = statusText;
+        document.getElementById("locationTimeNow").textContent = `Agora em Uberlândia: ${timeText}`;
+        document.getElementById("locationSchedule").innerHTML = schedule
+          .map((day) => {
+            const hoursText = day.closed ? "Fechado" : `${day.open}–${day.close}`;
+            const currentClass = day.id === weekday ? " is-current" : "";
+
+            return `
+              <div class="location-schedule__row${currentClass}">
+                <span>${day.label}</span>
+                <strong>${hoursText}</strong>
+              </div>
+            `;
+          })
+          .join("");
+      }
+
+      observeReveals();
+
+      fetch("/data/site-content.json")
+        .then((response) => response.json())
+        .then((data) => {
+          document.title = data.brand.pageTitle;
+          document.querySelector('meta[name="description"]').setAttribute("content", data.brand.metaDescription);
+          document.getElementById("brandName").textContent = data.brand.name;
+          document.getElementById("brandTagline").textContent = data.brand.tagline;
+          document.getElementById("heroHeadline").textContent = data.brand.heroHeadline;
+          document.getElementById("heroSubheadline").textContent = data.brand.heroSubheadline;
+
+          const heroImage = document.getElementById("heroImage");
+          heroImage.src = data.brand.heroImage.src;
+          heroImage.alt = data.brand.heroImage.alt;
+          heroImage.loading = "eager";
+          heroImage.fetchPriority = "high";
+          heroImage.onerror = () => heroImage.remove();
+
+          document.querySelectorAll(".js-whatsapp").forEach((link) => {
+            link.href = data.brand.whatsappLink;
+          });
+
+          document.getElementById("problemGrid").innerHTML = data.problems
+            .map(
+              (item, index) => `
+                <article class="problem-card" data-reveal="up" style="--reveal-delay: ${index * 80}ms;">
+                  <div class="problem-card__icon">${iconMap[item.icon] || ""}</div>
+                  <h3>${item.title}</h3>
+                  <p>${item.description}</p>
+                </article>
+              `
+            )
+            .join("");
+
+          document.getElementById("testimonialGrid").innerHTML = data.testimonials
+            .map(
+              (item, index) => `
+                <article class="testimonial-card" data-reveal="up" style="--reveal-delay: ${index * 90}ms;">
+                  <div class="testimonial-card__stars">★★★★★</div>
+                  <p>“${item.quote}”</p>
+                  <strong>${item.author}</strong>
+                </article>
+              `
+            )
+            .join("");
+
+          document.getElementById("doctorGrid").innerHTML = data.doctors
+            .map((doctor, index) => {
+              const doctorImage = doctor.image?.src
+                ? `<img src="${doctor.image.src}" alt="${doctor.image.alt}" loading="lazy" decoding="async" />`
+                : "";
+
+              return `
+                <article class="doctor-card doctor-card--${doctor.accent}" data-reveal="up" style="--reveal-delay: ${index * 100}ms;">
+                  <div class="doctor-card__media">
+                    <div class="doctor-card__initials">${doctor.initials}</div>
+                    ${doctorImage}
+                  </div>
+                  <div class="doctor-card__content">
+                    <span class="doctor-card__focus">${doctor.focus}</span>
+                    <h3>${doctor.name}</h3>
+                    <p class="doctor-card__specialty">${doctor.specialty}</p>
+                    <p>${doctor.bio}</p>
+                    <div class="doctor-card__badges">
+                      ${doctor.badges.map((badge) => `<span>${badge}</span>`).join("")}
+                    </div>
+                  </div>
+                </article>
+              `;
+            })
+            .join("");
+
+          renderLocation(data.location);
+          observeReveals();
+          window.clearInterval(window.locationClock);
+          window.locationClock = window.setInterval(() => renderLocation(data.location), 60000);
+        })
+        .catch((error) => {
+          revealImmediately();
+          console.error("Falha ao carregar o conteúdo do site:", error);
+        });
+    </script>
+  </body>
+</html>

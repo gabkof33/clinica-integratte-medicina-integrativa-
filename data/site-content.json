@@ -1,0 +1,138 @@
+{
+  "brand": {
+    "name": "Clínica Integratte",
+    "tagline": "Medicina integrativa no Brasil",
+    "pageTitle": "Clínica Integratte | Medicina Integrativa com foco na causa",
+    "metaDescription": "Descubra a causa da sua ansiedade, cansaço e desequilíbrio hormonal com uma abordagem integrativa, personalizada e humanizada. Agende sua consulta pelo WhatsApp.",
+    "whatsappLink": "https://wa.me/5534996785700?text=Ol%C3%A1,%20quero%20agendar%20uma%20consulta",
+    "phoneLabel": "+55 (34) 99678-5700",
+    "phoneLink": "tel:+5534996785700",
+    "heroHeadline": "Descubra a causa da sua ansiedade, cansaço e desequilíbrio hormonal",
+    "heroSubheadline": "Na Clínica Integratte, cada consulta investiga o que está por trás dos seus sintomas para criar um plano claro, personalizado e realmente possível de seguir.",
+    "heroImage": {
+      "src": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1200&q=80",
+      "alt": "Consulta em ambiente clínico moderno e acolhedor"
+    }
+  },
+  "problems": [
+    {
+      "icon": "bolt",
+      "title": "Cansaço constante",
+      "description": "Acordar sem energia, depender de café o dia inteiro e sentir o corpo sempre no limite."
+    },
+    {
+      "icon": "spark",
+      "title": "Ansiedade",
+      "description": "Mente acelerada, sono ruim, irritabilidade e dificuldade para relaxar de verdade."
+    },
+    {
+      "icon": "scale",
+      "title": "Dificuldade para emagrecer",
+      "description": "Mesmo com esforço, o peso não responde e o metabolismo parece travado."
+    },
+    {
+      "icon": "battery",
+      "title": "Falta de energia",
+      "description": "Queda de disposição para trabalhar, treinar, estudar ou simplesmente viver bem."
+    },
+    {
+      "icon": "wave",
+      "title": "Problemas hormonais",
+      "description": "Oscilações de humor, ciclo irregular, retenção, queda de cabelo e sintomas persistentes."
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Eu já tinha me acostumado a viver cansada. Na consulta, senti que finalmente alguém estava tentando entender o motivo de tudo aquilo.",
+      "author": "Patrícia M. • 42 anos"
+    },
+    {
+      "quote": "Foi a primeira vez que saí do consultório com um plano claro, simples de seguir e que fazia sentido para a minha rotina.",
+      "author": "Renata S. • 36 anos"
+    },
+    {
+      "quote": "Minha ansiedade e meu sono melhoraram quando o tratamento deixou de olhar só para o sintoma e começou a olhar para o todo.",
+      "author": "Carlos A. • 39 anos"
+    }
+  ],
+  "doctors": [
+    {
+      "initials": "TM",
+      "accent": "brand",
+      "focus": "Cuidado integrativo",
+      "name": "Dra. Tamara Mendes",
+      "specialty": "Atendimento humanizado e investigação individual",
+      "bio": "Consulta com escuta ampla, avaliação cuidadosa e um plano de próximos passos pensado para a realidade de cada paciente.",
+      "badges": ["Escuta acolhedora", "Plano personalizado"],
+      "image": {
+        "src": "/assets/images/dra-tamara-mendes.png",
+        "alt": "Dra. Tamara Mendes na Clínica Integratte"
+      }
+    },
+    {
+      "initials": "MC",
+      "accent": "accent",
+      "focus": "Acompanhamento individual",
+      "name": "Dr. Mauricio Chimeli",
+      "specialty": "Cuidado integrativo com olhar global",
+      "bio": "Atendimento focado em compreender sintomas, rotina e contexto antes de definir um plano claro e possível de seguir.",
+      "badges": ["Consulta objetiva", "Orientação com clareza"],
+      "image": {
+        "src": "/assets/images/dr-mauricio-chimeli.jpeg",
+        "alt": "Dr. Mauricio Chimeli na Clínica Integratte"
+      }
+    }
+  ],
+  "location": {
+    "city": "Clínica Integratte em Uberlândia, MG",
+    "addressLine1": "R. Vital Macedo, 366 - Tabajaras",
+    "addressLine2": "Uberlândia - MG, 38400-290",
+    "hours": "Segunda a sexta, das 08:00 às 21:00.",
+    "phoneLabel": "(34) 3306-5700",
+    "phoneLink": "tel:+553433065700",
+    "arrivalTimes": ["38 min", "12 min"],
+    "mapQuery": "R. Vital Macedo, 366 - Tabajaras, Uberlândia - MG, 38400-290",
+    "schedule": [
+      {
+        "id": "monday",
+        "label": "segunda-feira",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "id": "tuesday",
+        "label": "terça-feira",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "id": "wednesday",
+        "label": "quarta-feira",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "id": "thursday",
+        "label": "quinta-feira",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "id": "friday",
+        "label": "sexta-feira",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "id": "saturday",
+        "label": "sábado",
+        "closed": true
+      },
+      {
+        "id": "sunday",
+        "label": "domingo",
+        "closed": true
+      }
+    ]
+  }
+}
