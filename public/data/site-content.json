@@ -1,14 +1,14 @@
 {
   "brand": {
-    "name": "Clínica Integratte",
-    "tagline": "Medicina integrativa no Brasil",
-    "pageTitle": "Clínica Integratte | Medicina Integrativa com foco na causa",
-    "metaDescription": "Descubra a causa da sua ansiedade, cansaço e desequilíbrio hormonal com uma abordagem integrativa, personalizada e humanizada. Agende sua consulta pelo WhatsApp.",
+    "name": "Istituto Integratte",
+    "tagline": "medicina funcional de precisão",
+    "pageTitle": "Instito Integratte",
+    "metaDescription": "Um espaço onde ciência, precisão e cuidado se unem para transformar a forma como você vive a sua saúde. Aqui, cada pessoa é única e o cuidado é pensado de forma individualizada.",
     "whatsappLink": "https://wa.me/5534996785700?text=Ol%C3%A1,%20quero%20agendar%20uma%20consulta",
     "phoneLabel": "+55 (34) 99678-5700",
     "phoneLink": "tel:+5534996785700",
-    "heroHeadline": "Descubra a causa da sua ansiedade, cansaço e desequilíbrio hormonal",
-    "heroSubheadline": "Na Clínica Integratte, cada consulta investiga o que está por trás dos seus sintomas para criar um plano claro, personalizado e realmente possível de seguir.",
+    "heroHeadline": "Bem-vindo à Integratte.",
+    "heroSubheadline": "Um espaço onde ciência, precisão e cuidado se unem para transformar a forma como você vive a sua saúde. Aqui, cada pessoa é única e o cuidado é pensado de forma individualizada. Investigamos o seu corpo além dos sintomas, buscando as causas reais que impactam seu bem-estar.",
     "heroImage": {
       "src": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1200&q=80",
       "alt": "Consulta em ambiente clínico moderno e acolhedor"
