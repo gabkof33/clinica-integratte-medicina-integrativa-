@@ -1,14 +1,14 @@
 {
   "brand": {
-    "name": "Istituto Integratte",
+    "name": "Instituto Integratte",
     "tagline": "medicina funcional de precisão",
-    "pageTitle": "Instito Integratte",
-    "metaDescription": "Um espaço onde ciência, precisão e cuidado se unem para transformar a forma como você vive a sua saúde. Aqui, cada pessoa é única e o cuidado é pensado de forma individualizada.",
+    "pageTitle": "Instituto Integratte",
+    "metaDescription": "Muitas pessoas chegam à Integratte cansadas, sobrecarregadas e sem respostas claras. Investigamos a raiz dos problemas com Medicina Funcional de Precisão e cuidado individualizado.",
     "whatsappLink": "https://wa.me/5534996785700?text=Ol%C3%A1,%20quero%20agendar%20uma%20consulta",
     "phoneLabel": "+55 (34) 99678-5700",
     "phoneLink": "tel:+5534996785700",
-    "heroHeadline": "Bem-vindo à Integratte.",
-    "heroSubheadline": "Um espaço onde ciência, precisão e cuidado se unem para transformar a forma como você vive a sua saúde. Aqui, cada pessoa é única e o cuidado é pensado de forma individualizada. Investigamos o seu corpo além dos sintomas, buscando as causas reais que impactam seu bem-estar.",
+    "heroHeadline": "Medicina Funcional de Precisão para restaurar saúde, energia e equilíbrio.",
+    "heroSubheadline": "Muitas pessoas chegam à Integratte cansadas, sobrecarregadas, com dificuldade para emagrecer, controlar hormônios, dormir bem ou lidar com o estresse. Nosso foco vai além dos sintomas: investigamos a raiz dos desequilíbrios para construir um cuidado individualizado.",
     "heroImage": {
       "src": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1200&q=80",
       "alt": "Consulta em ambiente clínico moderno e acolhedor"
@@ -41,50 +41,390 @@
       "description": "Oscilações de humor, ciclo irregular, retenção, queda de cabelo e sintomas persistentes."
     }
   ],
+  "programSection": {
+    "eyebrow": "Programas Integratte",
+    "title": "Programas pensados para objetivos específicos e resultados acompanhados de perto",
+    "description": "Abra cada card para conhecer os programas da Integratte e entender qual deles se conecta ao seu objetivo."
+  },
+  "programs": [
+    {
+      "name": "DSI",
+      "label": "Programa Integratte"
+    },
+    {
+      "name": "FAST",
+      "label": "Emagrecimento inteligente"
+    },
+    {
+      "name": "PROTOCOLO EVOS",
+      "label": "Programa Integratte"
+    },
+    {
+      "name": "REGENERA",
+      "label": "Vitalidade celular"
+    },
+    {
+      "name": "MODULAÇÃO HORMONAL",
+      "label": "Equilíbrio e performance"
+    },
+    {
+      "name": "FERTILIDADE",
+      "label": "Cuidado integrativo"
+    },
+    {
+      "name": "INFRASHAPE",
+      "label": "Tecnologia em destaque"
+    }
+  ],
+  "programSpotlights": [
+    {
+      "eyebrow": "DSI",
+      "title": "Detoxificação e Saúde Integral para emagrecimento com base clínica",
+      "intro": [
+        "Se emagrecer é um objetivo para você, o DSI foi desenvolvido para tratar o sobrepeso de forma ampla, sem reduzir tudo a uma dieta rígida ou a uma rotina de treinos."
+      ],
+      "sections": [
+        {
+          "title": "Por que o DSI emagrece de verdade",
+          "paragraphs": [
+            "O programa parte do entendimento de que o corpo não está acima do peso por um único motivo. Quando o organismo está sobrecarregado, até a energia para manter hábitos saudáveis fica comprometida."
+          ]
+        },
+        {
+          "title": "Base do programa",
+          "paragraphs": [
+            "A base do DSI está no tratamento do terreno biológico e na desobstrução das vias de desintoxicação do organismo. O objetivo é ajudar o corpo a voltar a funcionar com mais equilíbrio."
+          ]
+        },
+        {
+          "title": "O que atrapalha o emagrecimento",
+          "paragraphs": [
+            "Metais pesados e outras sobrecargas ambientais podem interferir no funcionamento dos órgãos, do intestino, do cérebro e dos hormônios. Isso impacta disposição, foco, metabolismo e retenção de peso."
+          ]
+        },
+        {
+          "title": "Resultados acompanhados",
+          "paragraphs": [
+            "O DSI é um programa de nove meses com orientação médica para buscar emagrecimento, redução de inflamação, melhora da energia e manutenção dos resultados ao longo do tempo."
+          ]
+        }
+      ],
+      "cta": "Mais do que perder peso, o DSI busca devolver saúde e destravar o funcionamento do organismo."
+    },
+    {
+      "eyebrow": "FAST",
+      "title": "Emagrecimento inteligente, rápido e saudável",
+      "intro": [
+        "Se você deseja perder gordura de forma eficiente, com segurança e sem comprometer sua saúde, o FAST foi desenvolvido para acelerar seus resultados de forma estratégica e personalizada. Esse é um programa exclusivo de emagrecimento saudável a curto prazo, pensado para quem busca transformação real, com acompanhamento profissional e foco no funcionamento do organismo."
+      ],
+      "sections": [
+        {
+          "title": "Como o FAST atua no seu metabolismo",
+          "paragraphs": [
+            "Diferente de métodos restritivos e difíceis de manter, o FAST atua diretamente no seu metabolismo, estimulando o corpo a utilizar a gordura como fonte de energia de maneira mais eficiente.",
+            "O resultado é uma perda de gordura mais rápida, com preservação da massa muscular, mais disposição no dia a dia e melhora do equilíbrio metabólico."
+          ]
+        },
+        {
+          "title": "Acompanhamento profissional em cada etapa",
+          "paragraphs": [
+            "Durante todo o processo, você conta com acompanhamento de uma nutricionista altamente qualificada, garantindo que cada etapa seja ajustada às suas necessidades, rotina e objetivos.",
+            "Além disso, o programa inclui o uso de estratégias específicas para aceleração metabólica, potencializando ainda mais os resultados de forma segura e controlada."
+          ]
+        },
+        {
+          "title": "Resultados com estratégia e consciência",
+          "paragraphs": [
+            "O FAST não é apenas sobre emagrecer rápido, é sobre fazer isso com inteligência, orientação e respeito ao seu corpo.",
+            "É a combinação ideal entre estratégia, acompanhamento e tecnologia para quem quer ver resultados em pouco tempo sem abrir mão da saúde."
+          ]
+        }
+      ],
+      "cta": "Transforme seu corpo com mais rapidez, mais consciência e muito mais resultado."
+    },
+    {
+      "eyebrow": "FERTILIDADE",
+      "title": "Fertilidade com olhar funcional integrativo",
+      "intro": [
+        "Se o seu sonho é ter uma família, a fertilidade também pode ser acompanhada dentro da abordagem da Integratte, com preparo do corpo e da mente para a gestação."
+      ],
+      "sections": [
+        {
+          "title": "Olhar funcional para infertilidade",
+          "paragraphs": [
+            "A infertilidade pode ser multifatorial. Por isso, o cuidado não olha apenas um sintoma ou exame isolado: investiga hormônios, inflamação, rotina, estresse e equilíbrio do organismo."
+          ]
+        },
+        {
+          "title": "Experiência em obstetrícia e ginecologia",
+          "paragraphs": [
+            "Com experiência em obstetrícia, a Dra. Tamara já acompanhou inúmeras mulheres rumo à maternidade, unindo ciência e sensibilidade no preparo para a gravidez."
+          ]
+        },
+        {
+          "title": "Acompanhamento individualizado",
+          "paragraphs": [
+            "O objetivo é restaurar equilíbrio físico e emocional para que a gestação seja buscada com mais segurança, clareza e suporte personalizado."
+          ]
+        }
+      ],
+      "cta": "Preparar corpo e mente para a gestação faz parte do cuidado integral com a fertilidade."
+    },
+    {
+      "eyebrow": "INFRASHAPE",
+      "title": "A Nova Era do Emagrecimento Inteligente Chegou ao Instituto Integratte",
+      "intro": [
+        "A Infrashape é um equipamento de última geração que combina exercício estratégico, estimulador de colágeno, infravermelho e pressão negativa (vácuo).",
+        "O objetivo vai muito além de queimar calorias: ela cria um ambiente fisiológico que ativa o metabolismo, melhora a circulação e promove a remodelação corporal, ajudando você a conquistar resultados mais rápidos e consistentes."
+      ],
+      "sections": [
+        {
+          "title": "Como a Infrashape atua no corpo",
+          "items": [
+            {
+              "label": "Exercício estratégico",
+              "text": "mantém o corpo na zona ideal para queimar gordura de forma eficiente, transformando energia em resultados visíveis."
+            },
+            {
+              "label": "Infravermelho",
+              "text": "aquece profundamente os tecidos, aumentando a circulação, a oxigenação celular e acelerando o metabolismo para resultados mais rápidos."
+            },
+            {
+              "label": "Sistema de vácuo",
+              "text": "estimula os tecidos, melhora a circulação e a drenagem linfática, reduzindo retenção de líquidos e ajudando o corpo a funcionar de forma mais equilibrada."
+            }
+          ],
+          "paragraphs": [
+            "O resultado é aumento do gasto energético, fluxo sanguíneo otimizado e maior eficiência metabólica durante toda a sessão."
+          ]
+        },
+        {
+          "title": "Muito além das calorias: ativação celular",
+          "paragraphs": [
+            "O calor gerado pelo infravermelho ativa mecanismos naturais de termorregulação, aumentando o consumo energético. E a queima calórica é apenas a consequência de uma ativação metabólica profunda. Além disso, o estímulo térmico combinado à oxigenação dos tecidos melhora a atividade das mitocôndrias, responsáveis pela produção de energia celular."
+          ],
+          "bullets": [
+            "Maior eficiência na queima de gordura.",
+            "Mais disposição e energia.",
+            "Adaptação metabólica duradoura, que beneficia o corpo mesmo fora das sessões."
+          ]
+        },
+        {
+          "title": "Redução de medidas e melhora do contorno corporal",
+          "paragraphs": [
+            "A melhora da circulação e drenagem linfática reduz retenção hídrica e edema, contribuindo para:"
+          ],
+          "bullets": [
+            "Redução de medidas.",
+            "Melhora do aspecto da celulite.",
+            "Corpo menos inflamado e metabolismo mais ativo."
+          ]
+        },
+        {
+          "title": "Escolha o plano ideal para você",
+          "paragraphs": [
+            "Você pode realizar sessões de Infrashape dentro ou fora de um programa completo de emagrecimento no Instituto Integratte, sempre com acompanhamento profissional para maximizar os resultados."
+          ]
+        }
+      ],
+      "catalog": {
+        "title": "Catálogo INFRASHAPE",
+        "description": "Veja as páginas 1 a 5 do catálogo da Infrashape. Toque em qualquer imagem para abrir em tamanho maior.",
+        "pages": [
+          {
+            "label": "Página 1",
+            "src": "/assets/catalogs/infrashape/page_1_screenshot.png",
+            "alt": "Catálogo INFRASHAPE - página 1"
+          },
+          {
+            "label": "Página 2",
+            "src": "/assets/catalogs/infrashape/page_2_screenshot.png",
+            "alt": "Catálogo INFRASHAPE - página 2"
+          },
+          {
+            "label": "Página 3",
+            "src": "/assets/catalogs/infrashape/page_3_screenshot.png",
+            "alt": "Catálogo INFRASHAPE - página 3"
+          },
+          {
+            "label": "Página 4",
+            "src": "/assets/catalogs/infrashape/page_4_screenshot.png",
+            "alt": "Catálogo INFRASHAPE - página 4"
+          },
+          {
+            "label": "Página 5",
+            "src": "/assets/catalogs/infrashape/page_5_screenshot.png",
+            "alt": "Catálogo INFRASHAPE - página 5"
+          }
+        ]
+      },
+      "cta": "Agende sua avaliação e descubra como a Infrashape pode transformar seu corpo e acelerar seus resultados."
+    },
+    {
+      "eyebrow": "MODULAÇÃO HORMONAL",
+      "title": "Modulação hormonal com investigação individualizada",
+      "intro": [
+        "Sintomas como ansiedade, fadiga extrema, baixa libido, alterações de humor e queda de performance muitas vezes têm origem hormonal. Na Integratte, isso é tratado com avaliação ampla e individualizada."
+      ],
+      "sections": [
+        {
+          "title": "Quando a modulação hormonal entra no cuidado",
+          "paragraphs": [
+            "A proposta é enxergar além dos exames e investigar como hormônios, saúde, disposição e qualidade de vida se conectam no seu quadro."
+          ]
+        },
+        {
+          "title": "Sinais que merecem atenção",
+          "bullets": [
+            "Ansiedade e alterações de humor.",
+            "Fadiga extrema e baixa disposição.",
+            "Baixa libido e perda de performance.",
+            "Sintomas persistentes que podem ter origem hormonal."
+          ]
+        },
+        {
+          "title": "Consulta ampla e humanizada",
+          "paragraphs": [
+            "As consultas duram de 1h30 a 2h, com investigação clínica completa, escuta ativa e atenção à individualidade de cada paciente."
+          ]
+        }
+      ],
+      "cta": "A proposta é entender você por inteiro antes de definir qualquer estratégia."
+    },
+    {
+      "eyebrow": "PROTOCOLO EVOS",
+      "title": "Protocolo EVOS",
+      "intro": [
+        "O texto detalhado deste programa ainda não apareceu no material enviado para atualização do site."
+      ],
+      "sections": [
+        {
+          "title": "Conteúdo em atualização",
+          "paragraphs": [
+            "O layout já está pronto para receber a descrição completa do Protocolo EVOS assim que a clínica enviar o texto final."
+          ]
+        }
+      ],
+      "cta": "Quando você me mandar o conteúdo exato, eu substituo este bloco sem mexer no restante da página."
+    },
+    {
+      "eyebrow": "REGENERA",
+      "title": "Restaure sua energia celular e recupere sua vitalidade",
+      "intro": [
+        "Você já sentiu que seu corpo não responde mais como antes? Cansaço constante, dificuldade de concentração, inflamações recorrentes e até alterações no humor podem ter uma raiz comum: o desequilíbrio da sua saúde celular.",
+        "O Regenera é um programa exclusivo da Integratte, desenvolvido para atuar na base do seu organismo, restaurando a sua função mitocondrial. As mitocôndrias são responsáveis por produzir a energia que mantém seu corpo funcionando. Quando elas não trabalham bem, todo o sistema sente."
+      ],
+      "sections": [
+        {
+          "title": "Por que cuidar das mitocôndrias",
+          "paragraphs": [
+            "As mitocôndrias são verdadeiras usinas de energia das células. Quando comprometidas, o impacto vai muito além do cansaço e pode afetar sua imunidade, metabolismo, foco mental e até seu equilíbrio emocional.",
+            "Muitas vezes, esses sinais são ignorados ou considerados normais. Mas viver com baixa energia, inflamação constante ou dificuldade para emagrecer não é o ideal, é um alerta do seu corpo."
+          ]
+        },
+        {
+          "title": "Tecnologia e precisão a favor da sua saúde",
+          "paragraphs": [
+            "Durante o programa, utilizamos recursos modernos que ampliam a compreensão do seu corpo e tornam o tratamento altamente individualizado, como análises bioenergéticas, avaliação de composição corporal e tecnologias integrativas que auxiliam na recuperação celular.",
+            "Mais do que tratamento: transformação."
+          ]
+        },
+        {
+          "title": "Para quem é o Regenera",
+          "bullets": [
+            "Buscam recuperação após doenças ou infecções, como Covid.",
+            "Sentem fadiga constante ou baixa energia.",
+            "Querem melhorar desempenho físico e mental.",
+            "Desejam longevidade com qualidade de vida."
+          ]
+        },
+        {
+          "title": "Recupere sua energia. Redescubra seu potencial.",
+          "paragraphs": [
+            "Sem energia celular, não há vitalidade. Quando suas mitocôndrias funcionam bem, seu corpo responde com mais disposição, clareza mental e equilíbrio.",
+            "O Regenera não trata apenas sintomas: ele atua na origem, restaurando sua capacidade natural de gerar energia e viver com plenitude."
+          ]
+        }
+      ],
+      "cta": "Invista na sua saúde de dentro para fora."
+    }
+  ],
   "testimonials": [
     {
-      "quote": "Eu já tinha me acostumado a viver cansada. Na consulta, senti que finalmente alguém estava tentando entender o motivo de tudo aquilo.",
-      "author": "Patrícia M. • 42 anos"
+      "quote": "Lorena destaca o atendimento acolhedor, a educação da equipe e a paciência dos médicos para explicar cada etapa e tirar dúvidas com clareza.",
+      "author": "Lorena",
+      "source": "Baseado em avaliação do Google"
     },
     {
-      "quote": "Foi a primeira vez que saí do consultório com um plano claro, simples de seguir e que fazia sentido para a minha rotina.",
-      "author": "Renata S. • 36 anos"
+      "quote": "Adrianne conta que já faz tratamento na clínica há bastante tempo e elogia a competência da equipe, além do cuidado integral e preventivo da Dra. Tamara.",
+      "author": "Adrianne",
+      "source": "Baseado em avaliação do Google"
     },
     {
-      "quote": "Minha ansiedade e meu sono melhoraram quando o tratamento deixou de olhar só para o sintoma e começou a olhar para o todo.",
-      "author": "Carlos A. • 39 anos"
+      "quote": "Karina relata profunda gratidão pelo programa DSI e diz que a experiência transformou não só a alimentação, mas também a forma de pensar a própria saúde.",
+      "author": "Karina",
+      "source": "Baseado em avaliação do Google"
+    }
+  ],
+  "faqSection": {
+    "eyebrow": "Perguntas frequentes",
+    "title": "Perguntas frequentes sobre a Medicina Funcional de Precisão",
+    "description": "Abra cada card para entender a proposta da Integratte, o cuidado individualizado e como essa abordagem transforma sua saúde."
+  },
+  "faq": [
+    {
+      "question": "O que é Medicina Funcional de Precisão?",
+      "answer": [
+        "Na Medicina Funcional de Precisão, cada pessoa é única. Nosso foco vai além de tratar doenças ou sintomas isolados: investigamos corpo, mente e estilo de vida, identificando as causas profundas dos desequilíbrios.",
+        "Combinamos conhecimento científico avançado com abordagens integrativas e personalizadas, criando estratégias exclusivas para restaurar saúde, energia e equilíbrio."
+      ]
+    },
+    {
+      "question": "Por que escolher a Medicina Funcional de Precisão?",
+      "answer": [
+        "Na Integratte, unimos ciência e cuidado humanizado para criar soluções sob medida.",
+        "Combinamos nutrição funcional, suplementação estratégica, equilíbrio hormonal, suporte ao microbioma, manejo do estresse, exercícios adaptados e terapias mente-corpo. Tudo pensado para aumentar energia, melhorar performance, promover equilíbrio e garantir bem-estar."
+      ]
+    },
+    {
+      "question": "Como a Medicina Funcional de Precisão transforma sua vida?",
+      "answer": [
+        "Transformar sua saúde é mais do que aliviar sintomas: é reescrever seu dia a dia. Investigamos profundamente seu organismo, entendendo fatores que impactam energia, hormônios, sono e equilíbrio mental.",
+        "A partir de estratégias personalizadas e baseadas em ciência, orientamos hábitos, alimentação, sono, estresse e suplementação, criando um caminho único para você.",
+        "O resultado? Mais vitalidade, clareza, equilíbrio e qualidade de vida. Você não apenas melhora sua saúde, você redefine como vive."
+      ]
     }
   ],
   "doctors": [
     {
       "initials": "TM",
       "accent": "brand",
-      "focus": "Cuidado integrativo",
+      "focus": "Ginecologia integrativa",
       "name": "Dra. Tamara Mendes",
-      "specialty": "Atendimento humanizado e investigação individual",
-      "bio": "Consulta com escuta ampla, avaliação cuidadosa e um plano de próximos passos pensado para a realidade de cada paciente.",
-      "badges": ["Escuta acolhedora", "Plano personalizado"],
+      "specialty": "Medicina Funcional Integrativa, Nutrologia, Modulação Hormonal e Fertilidade",
+      "bio": "Formada pela Universidade de Passo Fundo, com residência em Obstetrícia, Ginecologia e Endoscopia Ginecológica, a Dra. Tamara Mendes ampliou sua atuação com Medicina Funcional Integrativa, Nutrologia e manipulação de hormônios. Com mais de 25 anos de experiência, realiza consultas de 1h30 a 2h com investigação clínica completa, escuta ativa e olhar individualizado para saúde, performance e fertilidade.",
+      "badges": ["+25 anos de experiência", "Modulação hormonal", "Fertilidade", "Consulta de 1h30 a 2h"],
       "image": {
-        "src": "/assets/images/dra-tamara-mendes.png",
-        "alt": "Dra. Tamara Mendes na Clínica Integratte"
+        "src": "/assets/images/dra_taamaramendes.jpeg",
+        "alt": "Dra. Tamara Mendes no Instituto Integratte"
       }
     },
     {
       "initials": "MC",
       "accent": "accent",
-      "focus": "Acompanhamento individual",
-      "name": "Dr. Mauricio Chimeli",
-      "specialty": "Cuidado integrativo com olhar global",
-      "bio": "Atendimento focado em compreender sintomas, rotina e contexto antes de definir um plano claro e possível de seguir.",
-      "badges": ["Consulta objetiva", "Orientação com clareza"],
+      "focus": "Investigação clínica profunda",
+      "name": "Dr. Mauricio Pereira Chimeli",
+      "specialty": "Medicina Integrativa, Medicina Antroposófica e BDORT",
+      "bio": "Com mais de 40 anos de experiência, o Dr. Mauricio Pereira Chimeli é formado em Medicina pela UERJ, com residência em Otorrinolaringologia, especialização em Administração Hospitalar e pós-graduação em Medicina Integrativa pela Uniube. Seu atendimento combina investigação clínica profunda, BDORT e Medicina Antroposófica em consultas de 1h30 a 2h, com exames incluídos para mapear a saúde do paciente.",
+      "badges": ["+40 anos de experiência", "BDORT", "Medicina Antroposófica", "Consulta de 1h30 a 2h"],
       "image": {
-        "src": "/assets/images/dr-mauricio-chimeli.jpeg",
-        "alt": "Dr. Mauricio Chimeli na Clínica Integratte"
+        "src": "/assets/images/dr_mauricio.jpeg",
+        "alt": "Dr. Mauricio Chimeli no Instituto Integratte"
       }
     }
   ],
   "location": {
-    "city": "Clínica Integratte em Uberlândia, MG",
+    "city": "Instituto Integratte em Uberlândia, MG",
     "addressLine1": "R. Vital Macedo, 366 - Tabajaras",
     "addressLine2": "Uberlândia - MG, 38400-290",
     "hours": "Segunda a sexta, das 08:00 às 21:00.",
