@@ -1,7 +1,7 @@
 {
   "brand": {
     "name": "Instituto Integratte",
-    "tagline": "medicina funcional de precisão",
+    "tagline": "Medicina funcional de precisão com foco em clareza, confiança e cuidado humano.",
     "pageTitle": "Instituto Integratte",
     "metaDescription": "Muitas pessoas chegam à Integratte cansadas, sobrecarregadas e sem respostas claras. Investigamos a raiz dos problemas com Medicina Funcional de Precisão e cuidado individualizado.",
     "whatsappLink": "https://wa.me/5534996785700?text=Ol%C3%A1,%20quero%20agendar%20uma%20consulta",
@@ -293,19 +293,46 @@
     },
     {
       "eyebrow": "PROTOCOLO EVOS",
-      "title": "Protocolo EVOS",
+      "title": "Protocolo Evos + Infrashape",
       "intro": [
-        "O texto detalhado deste programa ainda não apareceu no material enviado para atualização do site."
+        "O Protocolo Evos associado ao Infrashape une tecnologia de ponta à medicina funcional para promover uma abordagem estratégica, segura e inteligente no processo de emagrecimento e melhora da performance metabólica."
       ],
       "sections": [
         {
-          "title": "Conteúdo em atualização",
+          "title": "Protocolo Evos + Infrashape: tecnologia e saúde para transformação corporal",
           "paragraphs": [
-            "O layout já está pronto para receber a descrição completa do Protocolo EVOS assim que a clínica enviar o texto final."
+            "Esse tratamento tem duração de 5 dias, o organismo passa por uma fase de ativação profunda, com suplementação vitamínica personalizada, que potencializa o funcionamento do corpo, favorecendo uma queima de gordura mais eficiente, melhor recuperação e desempenho metabólico otimizado. Desde os primeiros dias, você percebe seu corpo respondendo de forma mais intensa, com mais energia, maior performance e resultados progressivos."
+          ]
+        },
+        {
+          "title": "O Infrashape é um equipamento estético avançado que integra três tecnologias complementares:",
+          "bullets": [
+            "Infravermelho longo: promove aquecimento profundo dos tecidos, melhora a microcirculação, estimula a atividade mitocondrial e auxilia na redução de processos inflamatórios.",
+            "Exercício ativo assistido: a prática de atividade física dentro do equipamento intensifica a queima calórica, aumenta a sudorese e potencializa os resultados, como um verdadeiro impulso ao metabolismo.",
+            "Pressão negativa: estimula a drenagem linfática, melhora a oxigenação dos tecidos e contribui para a redução de retenção de líquidos e aspecto da celulite."
+          ]
+        },
+        {
+          "title": "Principais benefícios do protocolo:",
+          "bullets": [
+            "Redução de gordura localizada",
+            "Estímulo intensificado da queima calórica",
+            "Melhora da firmeza e tonicidade da pele",
+            "Aumento da circulação sanguínea",
+            "Drenagem de líquidos e diminuição do inchaço",
+            "Estímulo à produção de colágeno",
+            "Modelagem corporal",
+            "Sensação de relaxamento e bem-estar"
+          ]
+        },
+        {
+          "title": "Uma solução completa para quem busca resultados consistentes",
+          "paragraphs": [
+            "Uma solução completa para quem busca resultados consistentes, com saúde, tecnologia e acompanhamento especializado."
           ]
         }
       ],
-      "cta": "Quando você me mandar o conteúdo exato, eu substituo este bloco sem mexer no restante da página."
+      "cta": "Agende sua avaliação e descubra como o Protocolo Evos + Infrashape pode transformar seu corpo."
     },
     {
       "eyebrow": "REGENERA",
@@ -424,7 +451,7 @@
     }
   ],
   "location": {
-    "city": "Instituto Integratte em Uberlândia, MG",
+    "city": "Instituto Integratte, em Uberlândia – MG, com estrutura planejada para proporcionar uma experiência exclusiva, transformadora e que acolhe desde o primeiro atendimento.",
     "addressLine1": "R. Vital Macedo, 366 - Tabajaras",
     "addressLine2": "Uberlândia - MG, 38400-290",
     "hours": "Segunda a sexta, das 08:00 às 21:00.",
