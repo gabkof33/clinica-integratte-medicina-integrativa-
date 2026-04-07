@@ -2010,7 +2010,7 @@ select {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .hero__benefits,
   .feature-grid,
   .steps-grid,
