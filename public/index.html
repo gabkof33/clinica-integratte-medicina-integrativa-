@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Instituto Integratte</title>
+    <title>Instituto Integratte | Medicina Integrativa com foco na causa</title>
     <meta
       name="description"
       content="Descubra a causa da sua ansiedade, cansaço e desequilíbrio hormonal com uma abordagem integrativa, personalizada e humanizada. Agende sua consulta pelo WhatsApp."
@@ -22,13 +22,6 @@
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <div class="dna-background" aria-hidden="true">
-      <div class="dna-background__particles dna-background__particles--primary"></div>
-      <div class="dna-background__particles dna-background__particles--secondary"></div>
-      <div class="dna-background__helix dna-background__helix--left"></div>
-      <div class="dna-background__helix dna-background__helix--right"></div>
-    </div>
-
     <a
       class="floating-whatsapp js-whatsapp"
       href="https://wa.me/5534996785700?text=Ol%C3%A1,%20quero%20agendar%20uma%20consulta"
@@ -43,22 +36,27 @@
     <!-- Cabeçalho fixo com logo, navegação e CTA -->
     <header class="site-header">
       <div class="container site-header__inner">
-        <a class="brand" href="#topo" aria-label="Instituto Integratte">
+        <a class="brand" href="#topo" aria-label="Clínica Integratte">
           <span class="brand__mark">
-            <img class="brand__logo" src="/assets/images/clinic-logo.svg" alt="Logo do Instituto Integratte" />
+            <img class="brand__logo" src="/assets/images/clinic-logo.svg" alt="Logo da Clínica Integratte" />
           </span>
           <span class="brand__copy">
-            <strong id="brandName">Instituto Integratte</strong>
-            <span id="brandTagline">medicina funcional de precisão</span>
+            <span id="brandTagline">Medicina funcional de precisão</span>
           </span>
         </a>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="hamburger" aria-label="Menu">
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+        </label>
 
         <nav class="site-nav" aria-label="Navegação principal">
           <a href="#problemas">Problemas</a>
           <a href="#solucao">Solução</a>
           <a href="#como-funciona">Como funciona</a>
-          <a href="#programas">Programas</a>
-          <a href="#faq">Perguntas</a>
+          <a href="#depoimentos">Depoimentos</a>
           <a href="#equipe">Equipe</a>
           <a href="#localizacao">Localização</a>
         </nav>
@@ -80,12 +78,9 @@
         <div class="container hero__grid">
           <div class="hero__content">
             <span class="eyebrow" data-reveal="up" style="--reveal-delay: 80ms;">Tratamento com foco na causa</span>
-            <h1 id="heroHeadline" class="hero__title" data-reveal="up" style="--reveal-delay: 150ms;">Bem-vindo à Integratte.</h1>
+            <h1 id="heroHeadline" class="hero__title" data-reveal="up" style="--reveal-delay: 150ms;">Descubra a causa da sua ansiedade, cansaço e desequilíbrio hormonal</h1>
             <p id="heroSubheadline" class="hero__description" data-reveal="up" style="--reveal-delay: 220ms;">
-              Um espaço onde ciência, precisão e cuidado se unem para transformar a forma como você vive a sua saúde. Aqui, cada pessoa é única e o cuidado é pensado de forma individualizada. Investigamos o seu corpo além dos sintomas, buscando as causas reais que impactam seu bem-estar.
-            </p>
-            <p class="hero__description" data-reveal="up" style="--reveal-delay: 260ms;">
-              Construímos estratégias personalizadas que integram conhecimento científico e uma compreensão profunda da sua individualidade, para elevar sua longevidade, energia e qualidade de vida. O cuidado que transforma sua vida não segue padrões. Quando a sua saúde muda, tudo muda!
+              Na Clínica Integratte, cada consulta investiga o que está por trás dos seus sintomas para criar um plano claro, personalizado e realmente possível de seguir.
             </p>
 
             <div class="hero__actions" data-reveal="up" style="--reveal-delay: 290ms;">
@@ -122,6 +117,31 @@
             </div>
           </div>
 
+          <div class="hero__visual" data-reveal="right" style="--reveal-delay: 180ms;">
+            <div class="hero-card">
+              <div class="hero-card__media">
+                <div class="hero-card__fallback">
+                  <p>Ambiente acolhedor, análise completa e um plano que considera o seu corpo como um todo.</p>
+                </div>
+                <img
+                  id="heroImage"
+                  src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                  alt=""
+                  decoding="async"
+                />
+              </div>
+
+              <div class="floating-note floating-note--left">
+                <strong>Foco no essencial</strong>
+                <span>Descobrir por que o sintoma aparece e o que precisa ser ajustado.</span>
+              </div>
+
+              <div class="floating-note floating-note--right floating-note--dark">
+                <strong>Consulta integrativa</strong>
+                <span>Mais contexto, menos resposta automática.</span>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -142,34 +162,48 @@
       <!-- Seção de solução: explicação acessível da medicina integrativa -->
       <section id="solucao" class="section section--highlight">
         <div class="container split-section">
+          <div class="image-panel" data-reveal="left">
+            <div class="image-panel__badge">Cuidado personalizado</div>
+            <div class="image-panel__media">
+              <div class="image-panel__fallback"></div>
+              <img
+                src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=900&q=80"
+                alt="Médica avaliando paciente com atenção em um consultório"
+                loading="lazy"
+                decoding="async"
+                onerror="this.remove()"
+              />
+            </div>
+          </div>
+
           <div class="split-section__content" data-reveal="right" style="--reveal-delay: 80ms;">
-            <span class="eyebrow">Objetivo da Integratte</span>
-            <h2>Por que buscar a Medicina Funcional de Precisão?</h2>
+            <span class="eyebrow">Solução clara e acessível</span>
+            <h2>O que é medicina integrativa na prática?</h2>
             <p>
-              Muitas pessoas chegam até nós cansadas, sobrecarregadas, com dificuldade para emagrecer, controlar hormônios, dormir bem ou lidar com o estresse do dia a dia.
+              É uma forma de cuidar da sua saúde olhando o quadro completo. Em vez de tratar cada sintoma isoladamente, avaliamos o que pode estar desequilibrando o seu corpo e a sua rotina.
             </p>
             <p>
-              Na Integratte, a Medicina Funcional de Precisão vai além de tratar sintomas isolados. Investigamos a raiz dos problemas e construímos um cuidado que busca equilíbrio físico, emocional e mental com orientação real para novos hábitos.
+              Sono, estresse, alimentação, hormônios, inflamação, hábitos e histórico de saúde entram na mesma conversa para identificar a causa do problema e montar um tratamento individual.
             </p>
 
             <div class="feature-grid">
               <article class="soft-card">
-                <h3>Investigar a raiz</h3>
-                <p>Mais profundidade clínica para entender o que realmente está mantendo o desequilíbrio.</p>
+                <h3>Descobrir a causa</h3>
+                <p>Mais investigação do que tentativa e erro. Mais contexto do que respostas genéricas.</p>
               </article>
               <article class="soft-card">
-                <h3>Cuidado individualizado</h3>
-                <p>Estratégias pensadas para seu momento de vida, seus sintomas e seus objetivos.</p>
+                <h3>Plano personalizado</h3>
+                <p>Condutas escolhidas conforme sua fase de vida, sintomas, exames e objetivos.</p>
               </article>
               <article class="soft-card">
-                <h3>Educar para viver melhor</h3>
-                <p>O tratamento busca clareza, autonomia e mudanças que fazem sentido fora do consultório.</p>
+                <h3>Ajuste contínuo</h3>
+                <p>O plano evolui com você, sem rigidez e com acompanhamento próximo.</p>
               </article>
             </div>
 
             <div class="quote-card">
-              <strong>Sem achismo</strong>
-              <p>Nosso trabalho une ciência, investigação e acompanhamento para que você entenda o processo e avance com direção.</p>
+              <strong>Sem linguagem complicada</strong>
+              <p>Você entende o que está acontecendo, por que aquilo foi pedido e qual é o próximo passo do tratamento.</p>
             </div>
 
             <a
@@ -181,20 +215,6 @@
               Quero entender meu caso
             </a>
           </div>
-        </div>
-      </section>
-
-      <section id="faq" class="section">
-        <div class="container">
-          <div class="section-heading" data-reveal="up">
-            <span id="faqMainEyebrow" class="eyebrow">Perguntas frequentes</span>
-            <h2 id="faqMainTitle">Respostas claras sobre a Medicina Funcional de Precisão</h2>
-            <p id="faqMainDescription">
-              Abra cada card para entender melhor a proposta da Integratte e como funciona o cuidado individualizado.
-            </p>
-          </div>
-
-          <div id="faqMainList" class="faq-list"></div>
         </div>
       </section>
 
@@ -228,29 +248,13 @@
       </section>
 
       <!-- Prova social: depoimentos e avaliações -->
-      <!-- Programas da Integratte -->
-      <section id="programas" class="section section--highlight">
-        <div class="container">
-          <div class="section-heading" data-reveal="up">
-            <span id="programSectionEyebrow" class="eyebrow">Programas Integratte</span>
-            <h2 id="programSectionTitle">Programas pensados para objetivos específicos e resultados acompanhados de perto</h2>
-            <p id="programSectionDescription">
-              Na Integratte, cada programa combina estratégia, ciência e cuidado individualizado para atender metas diferentes com mais precisão.
-            </p>
-          </div>
-
-          <div id="programGrid" class="program-grid"></div>
-          <div id="programSpotlightGrid" class="program-spotlight-grid"></div>
-        </div>
-      </section>
-
       <section id="depoimentos" class="section section--dark">
         <div class="container">
           <div class="section-heading section-heading--dark section-heading--between" data-reveal="up">
             <div>
               <span class="eyebrow eyebrow--dark">Pacientes que voltaram a se sentir no controle</span>
               <h2>Prova social que transmite segurança antes mesmo do primeiro contato</h2>
-              <p>Os relatos abaixo foram adaptados de avaliações públicas do Google já exibidas no site oficial da clínica.</p>
+              <p>Os depoimentos abaixo são exemplos de linguagem real de pacientes e podem ser substituídos pelos relatos verdadeiros da clínica.</p>
             </div>
             <a
               class="button button--light button--large js-whatsapp"
@@ -271,8 +275,8 @@
         <div class="container">
           <div class="section-heading" data-reveal="up">
             <span class="eyebrow">Equipe médica</span>
-            <h2>Médicos que unem experiência clínica, medicina integrativa e investigação profunda</h2>
-            <p>Conheça a atuação da Dra. Tamara Mendes e do Dr. Mauricio Chimeli no cuidado individualizado da Integratte.</p>
+            <h2>Profissionais que unem visão clínica, acolhimento e profundidade na investigação</h2>
+            <p>A apresentação abaixo pode ser adaptada para os médicos reais da clínica, mantendo a mesma estrutura de autoridade e confiança.</p>
           </div>
 
           <div id="doctorGrid" class="doctor-grid"></div>
@@ -280,20 +284,6 @@
       </section>
 
       <!-- CTA forte antes de localização -->
-      <section class="section faq-legacy" hidden>
-        <div class="container">
-          <div class="section-heading" data-reveal="up">
-            <span id="faqSectionEyebrow" class="eyebrow">Perguntas frequentes</span>
-            <h2>Respostas claras sobre a abordagem do Instituto Integratte</h2>
-            <p id="faqSectionDescription">
-              Abra cada pergunta para entender melhor como funciona a Medicina Funcional de Precisão e o cuidado individualizado da Integratte.
-            </p>
-          </div>
-
-          <div id="faqList" class="faq-list"></div>
-        </div>
-      </section>
-
       <section class="section">
         <div class="container">
           <div class="cta-banner" data-reveal="scale">
@@ -340,19 +330,6 @@
                 <a id="locationPhoneLink" href="tel:+553433065700">(34) 3306-5700</a>
               </div>
               <div>
-                <strong>Instagram</strong>
-                <a class="social-link" href="https://instagram.com/institutointegratte" target="_blank" rel="noopener noreferrer">
-                  <span class="social-link__icon" aria-hidden="true">
-                    <svg viewBox="0 0 24 24" role="img" focusable="false">
-                      <rect x="3.5" y="3.5" width="17" height="17" rx="5"></rect>
-                      <circle cx="12" cy="12" r="4"></circle>
-                      <circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"></circle>
-                    </svg>
-                  </span>
-                  <span>@institutointegratte</span>
-                </a>
-              </div>
-              <div>
                 <strong>Horário de funcionamento</strong>
                 <div class="location-status">
                   <span id="locationStatusBadge" class="status-pill status-pill--closed">Verificando horário...</span>
@@ -391,29 +368,14 @@
     <footer class="site-footer">
       <div class="container site-footer__inner">
         <div class="brand brand--footer">
-          <span class="brand__mark">
-            <img class="brand__logo" src="/assets/images/clinic-logo.svg" alt="Logo do Instituto Integratte" loading="lazy" />
-          </span>
           <span class="brand__copy">
-            <strong>Instituto Integratte</strong>
-            <span>Medicina integrativa com foco em clareza, confiança e cuidado humano.</span>
+            <strong>Medicina funcional de precisão</strong>
+            <span>Abordagem integrativa com foco em clareza, confiança e cuidado humano.</span>
           </span>
         </div>
         <div class="site-footer__text">
           <p>Conteúdo informativo. A avaliação médica é indispensável para definir qualquer conduta individual.</p>
-          <p>
-            <a class="site-footer__link social-link" href="https://instagram.com/institutointegratte" target="_blank" rel="noopener noreferrer">
-              <span class="social-link__icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" role="img" focusable="false">
-                  <rect x="3.5" y="3.5" width="17" height="17" rx="5"></rect>
-                  <circle cx="12" cy="12" r="4"></circle>
-                  <circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"></circle>
-                </svg>
-              </span>
-              <span>@institutointegratte</span>
-            </a>
-          </p>
-          <p>&copy; 2025 Instituto Integratte. Todos os direitos reservados.</p>
+          <p>&copy; 2025 Clínica Integratte. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
@@ -599,237 +561,6 @@
           .join("");
       }
 
-      function renderProgramContentBlock(section) {
-        const paragraphs = Array.isArray(section.paragraphs)
-          ? section.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join("")
-          : "";
-        const items = Array.isArray(section.items) && section.items.length > 0
-          ? `
-              <ol class="program-spotlight__list">
-                ${section.items
-                  .map(
-                    (item) => `
-                      <li>
-                        <strong>${item.label}</strong>
-                        <span>${item.text}</span>
-                      </li>
-                    `
-                  )
-                  .join("")}
-              </ol>
-            `
-          : "";
-        const bullets = Array.isArray(section.bullets) && section.bullets.length > 0
-          ? `
-              <ul class="program-spotlight__bullets">
-                ${section.bullets.map((item) => `<li>${item}</li>`).join("")}
-              </ul>
-            `
-          : "";
-
-        return `
-          <div class="program-spotlight__section">
-            <h4>${section.title}</h4>
-            ${paragraphs}
-            ${items}
-            ${bullets}
-          </div>
-        `;
-      }
-
-      function renderProgramCatalog(catalog) {
-        const pages = Array.isArray(catalog?.pages) ? catalog.pages : [];
-
-        if (pages.length === 0) {
-          return "";
-        }
-
-        return `
-          <div class="program-catalog">
-            <div class="program-catalog__header">
-              <h4>${catalog.title || "Catalogo do programa"}</h4>
-              ${catalog.description ? `<p>${catalog.description}</p>` : ""}
-            </div>
-            <div class="program-catalog__grid">
-              ${pages
-                .map(
-                  (page, index) => `
-                    <a
-                      class="program-catalog__item"
-                      href="${page.src}"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Abrir ${page.alt || `pagina ${index + 1}`} em tamanho maior"
-                    >
-                      <img
-                        src="${page.src}"
-                        alt="${page.alt || `Catalogo do programa - pagina ${index + 1}`}"
-                        loading="lazy"
-                        decoding="async"
-                      />
-                      <span class="program-catalog__caption">${page.label || `Pagina ${index + 1}`}</span>
-                    </a>
-                  `
-                )
-                .join("")}
-            </div>
-          </div>
-        `;
-      }
-
-      function renderPrograms(data) {
-        const section = data.programSection || {};
-        document.getElementById("programSectionEyebrow").textContent = section.eyebrow || "Programas Integratte";
-        document.getElementById("programSectionTitle").textContent =
-          section.title || "Programas pensados para objetivos específicos e resultados acompanhados de perto";
-        document.getElementById("programSectionDescription").textContent =
-          section.description || "Na Integratte, cada programa combina estratégia, ciência e cuidado individualizado.";
-
-        const normalizeProgramKey = (value) =>
-          (value || "")
-            .normalize("NFD")
-            .replace(/[\u0300-\u036f]/g, "")
-            .toUpperCase()
-            .trim();
-        const comparePrograms = (first, second) =>
-          normalizeProgramKey(first).localeCompare(normalizeProgramKey(second), "pt-BR", { sensitivity: "base" });
-
-        const programs = (Array.isArray(data.programs) ? data.programs : [])
-          .slice()
-          .sort((first, second) => comparePrograms(first.name, second.name));
-
-        document.getElementById("programGrid").innerHTML = programs
-          .map(
-            (program, index) => `
-              <article class="program-card" data-reveal="up" style="--reveal-delay: ${index * 70}ms;">
-                <span class="program-card__label">${program.label || "Programa Integratte"}</span>
-                <h3>${program.name}</h3>
-              </article>
-            `
-          )
-          .join("");
-
-        const spotlights = Array.isArray(data.programSpotlights) ? data.programSpotlights : [];
-        const spotlightMap = new Map(
-          spotlights.map((spotlight) => [normalizeProgramKey(spotlight.eyebrow || spotlight.title), spotlight])
-        );
-        const detailEntries = programs.map((program) => {
-          const spotlight = spotlightMap.get(normalizeProgramKey(program.name));
-
-          if (spotlight) {
-            return spotlight;
-          }
-
-          return {
-            eyebrow: program.name,
-            title: program.name,
-            intro: ["O texto detalhado deste programa ainda nao foi adicionado ao arquivo do site."],
-            sections: [],
-            cta: "Assim que voce me enviar o texto exato, eu substituo este conteudo temporario."
-          };
-        });
-
-        document.getElementById("programSpotlightGrid").innerHTML = detailEntries
-          .map(
-            (spotlight, index) => `
-              <article class="faq-card program-detail-card" data-reveal="up" style="--reveal-delay: ${140 + index * 90}ms;">
-                <button
-                  class="faq-card__toggle program-detail-card__toggle"
-                  type="button"
-                  aria-expanded="false"
-                  aria-controls="program-detail-${index}"
-                >
-                  <div class="program-detail-card__summary">
-                    <span class="program-card__label">${spotlight.eyebrow}</span>
-                    <span class="faq-card__question">${spotlight.title}</span>
-                  </div>
-                  <span class="faq-card__icon" aria-hidden="true">+</span>
-                </button>
-                <div id="program-detail-${index}" class="faq-card__answer program-detail-card__answer" hidden>
-                  <div class="program-detail-card__body">
-                    ${(spotlight.intro || []).map((paragraph) => `<p class="program-spotlight__lead">${paragraph}</p>`).join("")}
-                    ${(spotlight.sections || []).map((sectionItem) => renderProgramContentBlock(sectionItem)).join("")}
-                    ${renderProgramCatalog(spotlight.catalog)}
-                  </div>
-                  <p class="program-spotlight__cta">${spotlight.cta || ""}</p>
-                </div>
-              </article>
-            `
-          )
-          .join("");
-
-        initializeFaqAccordion();
-      }
-
-      function syncFaqCardState(card, expanded) {
-        const button = card.querySelector(".faq-card__toggle");
-        const panel = card.querySelector(".faq-card__answer");
-        const icon = card.querySelector(".faq-card__icon");
-
-        if (!button || !panel || !icon) {
-          return;
-        }
-
-        card.classList.toggle("is-open", expanded);
-        button.setAttribute("aria-expanded", String(expanded));
-        panel.hidden = !expanded;
-        icon.textContent = expanded ? "-" : "+";
-      }
-
-      function initializeFaqAccordion() {
-        document.querySelectorAll(".faq-card").forEach((card) => {
-          const button = card.querySelector(".faq-card__toggle");
-
-          if (!button) {
-            return;
-          }
-
-          syncFaqCardState(card, false);
-          if (button.dataset.faqBound === "true") {
-            return;
-          }
-
-          button.dataset.faqBound = "true";
-          button.addEventListener("click", () => {
-            const willExpand = button.getAttribute("aria-expanded") !== "true";
-            syncFaqCardState(card, willExpand);
-          });
-        });
-      }
-
-      function renderFaq(data) {
-        const section = data.faqSection || {};
-        document.getElementById("faqMainEyebrow").textContent = section.eyebrow || "Perguntas frequentes";
-        document.getElementById("faqMainTitle").textContent =
-          section.title || "Perguntas frequentes sobre a Medicina Funcional de Precisão";
-        document.getElementById("faqMainDescription").textContent =
-          section.description || "Abra cada card para entender a proposta da Integratte e como funciona o cuidado individualizado.";
-
-        const faqItems = Array.isArray(data.faq) ? data.faq : [];
-        document.getElementById("faqMainList").innerHTML = faqItems
-          .map(
-            (item, index) => `
-              <article class="faq-card" data-reveal="up" style="--reveal-delay: ${index * 80}ms;">
-                <button
-                  class="faq-card__toggle"
-                  type="button"
-                  aria-expanded="false"
-                  aria-controls="faq-answer-${index}"
-                >
-                  <span class="faq-card__question">${item.question}</span>
-                  <span class="faq-card__icon" aria-hidden="true">+</span>
-                </button>
-                <div id="faq-answer-${index}" class="faq-card__answer" hidden>
-                  ${item.answer.map((paragraph) => `<p>${paragraph}</p>`).join("")}
-                </div>
-              </article>
-            `
-          )
-          .join("");
-
-        initializeFaqAccordion();
-      }
-
       observeReveals();
 
       fetch("/data/site-content.json")
@@ -843,13 +574,11 @@
           document.getElementById("heroSubheadline").textContent = data.brand.heroSubheadline;
 
           const heroImage = document.getElementById("heroImage");
-          if (heroImage && data.brand.heroImage?.src) {
-            heroImage.src = data.brand.heroImage.src;
-            heroImage.alt = data.brand.heroImage.alt || "";
-            heroImage.loading = "eager";
-            heroImage.fetchPriority = "high";
-            heroImage.onerror = () => heroImage.remove();
-          }
+          heroImage.src = data.brand.heroImage.src;
+          heroImage.alt = data.brand.heroImage.alt;
+          heroImage.loading = "eager";
+          heroImage.fetchPriority = "high";
+          heroImage.onerror = () => heroImage.remove();
 
           document.querySelectorAll(".js-whatsapp").forEach((link) => {
             link.href = data.brand.whatsappLink;
@@ -867,8 +596,6 @@
             )
             .join("");
 
-          renderPrograms(data);
-
           document.getElementById("testimonialGrid").innerHTML = data.testimonials
             .map(
               (item, index) => `
@@ -876,7 +603,6 @@
                   <div class="testimonial-card__stars">★★★★★</div>
                   <p>“${item.quote}”</p>
                   <strong>${item.author}</strong>
-                  ${item.source ? `<span class="testimonial-card__source">${item.source}</span>` : ""}
                 </article>
               `
             )
@@ -908,7 +634,6 @@
             })
             .join("");
 
-          renderFaq(data);
           renderLocation(data.location);
           observeReveals();
           window.clearInterval(window.locationClock);
