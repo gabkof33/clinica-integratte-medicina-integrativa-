@@ -1172,6 +1172,15 @@ select {
   display: block;
 }
 
+.program-spotlight__image {
+  width: 100%;
+  max-height: 360px;
+  object-fit: cover;
+  border-radius: 24px;
+  margin: 24px 0;
+  display: block;
+}
+
 .program-card__label,
 .program-spotlight__eyebrow {
   display: inline-flex;

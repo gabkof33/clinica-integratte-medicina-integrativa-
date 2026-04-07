@@ -718,12 +718,16 @@
           const spotlight = spotlightMap.get(normalizeProgramKey(program.name));
 
           if (spotlight) {
-            return spotlight;
+            return {
+              ...spotlight,
+              image: spotlight.image || program.image,
+            };
           }
 
           return {
             eyebrow: program.name,
             title: program.name,
+            image: program.image,
             intro: ["O texto detalhado deste programa ainda nao foi adicionado ao arquivo do site."],
             sections: [],
             cta: "Assim que voce me enviar o texto exato, eu substituo este conteudo temporario."
@@ -748,6 +752,7 @@
                 </button>
                 <div id="program-detail-${index}" class="faq-card__answer program-detail-card__answer" hidden>
                   <div class="program-detail-card__body">
+                    ${spotlight.image ? `<img class="program-spotlight__image" src="${spotlight.image.src}" alt="${spotlight.image.alt || spotlight.title}" />` : ""}
                     ${(spotlight.intro || []).map((paragraph) => `<p class="program-spotlight__lead">${paragraph}</p>`).join("")}
                     ${(spotlight.sections || []).map((sectionItem) => renderProgramContentBlock(sectionItem)).join("")}
                     ${renderProgramCatalog(spotlight.catalog)}
