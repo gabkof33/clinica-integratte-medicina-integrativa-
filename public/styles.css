@@ -1698,24 +1698,30 @@ select {
 .location-arrival__label,
 .location-time-now {
   color: var(--muted);
-  font-size: 0.92rem;
+  font-size: 0.9rem;
+  line-height: 1.3;
+  margin: 0;
 }
 
 .location-arrival__badges {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  align-items: center;
 }
 
 .location-arrival__badges span,
 .status-pill {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  height: 40px;
   width: fit-content;
-  padding: 10px 14px;
+  padding: 0 16px;
   border-radius: 999px;
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   font-weight: 800;
+  line-height: 1;
 }
 
 .location-arrival__badges span {
@@ -1743,6 +1749,8 @@ select {
 .location-status p,
 .location-time-now {
   margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.3;
 }
 
 .location-schedule {
