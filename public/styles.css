@@ -1651,9 +1651,12 @@ select {
 
 .location-list strong,
 .location-list a {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
   margin-bottom: 8px;
   font-weight: 800;
+  line-height: 1.2;
 }
 
 .location-list a {
@@ -1663,13 +1666,16 @@ select {
 .social-link {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  justify-content: flex-start;
+  gap: 8px;
+  line-height: 1;
 }
 
 .social-link__icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
   width: 24px;
   height: 24px;
   color: currentColor;
@@ -1679,11 +1685,6 @@ select {
   width: 100%;
   height: 100%;
   display: block;
-}
-
-.social-link__icon svg {
-  width: 100%;
-  height: 100%;
   fill: none;
   stroke: currentColor;
   stroke-width: 1.8;
