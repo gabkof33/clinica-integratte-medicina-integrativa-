@@ -33,6 +33,9 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -45,6 +48,8 @@ body {
     var(--bg);
   overflow-x: hidden;
   position: relative;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
 }
 
 .site-header,
@@ -2109,6 +2114,41 @@ select {
 
   .hero-card__media {
     aspect-ratio: 9 / 10;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: min(calc(100% - 28px), var(--container));
+  }
+
+  .site-header__inner {
+    gap: 18px;
+    min-height: 72px;
+  }
+
+  .brand__mark {
+    flex-basis: 64px;
+    width: 64px;
+    height: 64px;
+  }
+
+  .brand__copy strong {
+    font-size: 0.95rem;
+  }
+
+  .brand__copy span {
+    font-size: 0.86rem;
+  }
+
+  .hero__title {
+    font-size: clamp(2.2rem, 4vw, 3.8rem);
+    max-width: 700px;
+  }
+
+  .hero__content,
+  .hero__visual {
+    width: min(100%, 760px);
   }
 }
 
