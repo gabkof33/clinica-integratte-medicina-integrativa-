@@ -1164,14 +1164,6 @@ select {
   gap: 18px;
 }
 
-.program-card__image {
-  width: 100%;
-  max-height: 180px;
-  object-fit: cover;
-  border-radius: 18px;
-  display: block;
-}
-
 .program-spotlight__image {
   width: 100%;
   max-height: 360px;

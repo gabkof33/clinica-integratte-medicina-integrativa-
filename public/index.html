@@ -703,7 +703,6 @@
             (program, index) => `
               <article class="program-card" data-reveal="up" style="--reveal-delay: ${index * 70}ms;">
                 <span class="program-card__label">${program.label || "Programa Integratte"}</span>
-                ${program.image ? `<img class="program-card__image" src="${program.image.src}" alt="${program.image.alt || program.name}" />` : ""}
                 <h3>${program.name}</h3>
               </article>
             `
