@@ -61,7 +61,11 @@
     },
     {
       "name": "REGENERA",
-      "label": "Vitalidade celular"
+      "label": "Vitalidade celular",
+      "image": {
+        "src": "/assets/images/regenera-card.jpg",
+        "alt": "Imagem do programa Regenera"
+      }
     },
     {
       "name": "MODULAÇÃO HORMONAL",
