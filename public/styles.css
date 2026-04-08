@@ -352,11 +352,10 @@ select {
 }
 
 .container {
-  width: 100%;
-  max-width: 1200px;
+  width: min(calc(100% - 32px), var(--container));
   margin: 0 auto;
-  padding: 0 clamp(16px, 5vw, 32px);
 }
+
 .section {
   padding: 96px 0;
 }
