@@ -60,28 +60,25 @@ body {
   overflow-x: hidden;
 }
 
-/* CAMADA DA LOGO */
 body::before {
   content: "";
   position: fixed;
-  top: 50%;
-  left: 50%;
-  /* Melhora a responsividade: */
-  width: 90vw;        /* Em telas pequenas, ocupa 90% da largura */
-  max-width: 600px;   /* Em telas grandes, não passa de 600px */
-  height: auto;
-  aspect-ratio: 1/1;  /* Mantém a proporção quadrada da logo */
+  inset: 0; /* substitui top/left + width */
+  
+  max-width: 100%;
+  width: 100%;
+  
+  margin: auto;
+  aspect-ratio: 1 / 1;
 
   background-image: url('/assets/images/rodapé.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 
-  transform: translate(-50%, -50%);
-  opacity: 0.08; 
-  
-  pointer-events: none; /* Importante: impede que a logo "atrapalhe" os cliques nos botões */
-  z-index: 0;
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: -1; /* importante */
 }
 
 .site-header,
