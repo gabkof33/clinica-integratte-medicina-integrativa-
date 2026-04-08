@@ -42,16 +42,17 @@ body {
   margin: 0;
   font-family: "Manrope", sans-serif;
   color: var(--text);
-  background:
+  /* Mantive o degradê, mas com fundo branco de fallback */
+  background: 
     radial-gradient(circle at top left, rgba(66, 172, 175, 0.16), transparent 32%),
     radial-gradient(circle at top right, rgba(41, 125, 255, 0.12), transparent 26%),
-    var(--bg);
+    #ffffff; 
+  
   overflow-x: hidden;
   position: relative;
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
 }
-
 /* FUNDO COM LOGO */
 body {
   position: relative;
@@ -65,8 +66,11 @@ body::before {
   position: fixed;
   top: 50%;
   left: 50%;
-  width: 600px; /* controla o tamanho */
-  height: 600px;
+  /* Melhora a responsividade: */
+  width: 90vw;        /* Em telas pequenas, ocupa 90% da largura */
+  max-width: 600px;   /* Em telas grandes, não passa de 600px */
+  height: auto;
+  aspect-ratio: 1/1;  /* Mantém a proporção quadrada da logo */
 
   background-image: url('/assets/images/rodapé.png');
   background-repeat: no-repeat;
@@ -74,9 +78,9 @@ body::before {
   background-size: contain;
 
   transform: translate(-50%, -50%);
-  opacity: 0.08; /* transparência (pode ajustar) */
-
-  pointer-events: none;
+  opacity: 0.08; 
+  
+  pointer-events: none; /* Importante: impede que a logo "atrapalhe" os cliques nos botões */
   z-index: 0;
 }
 
