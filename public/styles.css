@@ -893,11 +893,9 @@ select {
 }
 
 .hero__trust span {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  width: 100%;
+  min-height: 40px; /* ✅ permite crescer */
+  height: auto;
+  padding: 8px 12px;
 }
 
 .hero__trust span::before {
