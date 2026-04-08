@@ -1625,7 +1625,7 @@ select {
 
 .doctor-card {
   display: grid;
-  grid-template-columns: minmax(260px, 0.88fr) minmax(0, 1.12fr);
+  grid-template-columns: minmax(px, 0.88fr) minmax(0, 1.12fr);
   overflow: hidden;
 }
 
@@ -2559,4 +2559,26 @@ body {
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
+}
+
+
+@media (max-width: 768px) {
+  .hero__trust,
+  .hero__benefits,
+  .feature-grid,
+  .steps-grid,
+  .testimonial-grid,
+  .doctor-grid,
+  .problem-grid,
+  .program-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .hero__trust span {
+    white-space: normal;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    padding: 6px 10px;
+  }
 }
