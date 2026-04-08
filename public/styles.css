@@ -2079,6 +2079,13 @@ select {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
 
+  @media (max-width: 768px) {
+  body::before {
+    width: 80vw;
+    opacity: 0.05;
+  }
+}
+
   .site-nav {
     position: absolute;
     top: 100%;
